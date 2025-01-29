@@ -25,8 +25,8 @@ import static org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTest
 @AutoConfigureTestDatabase(replace = NONE)
 @ActiveProfiles("junit")
 @Sql(scripts = {
-        "/db/scripts/truncate.sql",
-        "/db/scripts/CitizenRepositoryTest.sql"
+        "/db/script/truncate.sql",
+        "/db/script/CitizenRepositoryTest.sql"
 })
 class CitizenRepositoryTest {
 
